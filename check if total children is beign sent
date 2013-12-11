@@ -1,0 +1,32 @@
+<script>
+
+//check if total children is beign sent
+
+if (t_totalChildren[0] == "0")
+{
+
+$('#room1_children').find('option').each( function() {
+      var $this = $(this);
+      if ($this.text() == '1') {
+         $this.attr('selected','selected');
+         return false;
+      }
+ });
+
+}
+
+//show children ages drop down
+$('#room1_children_ages').removeClass("hidden");
+
+
+
+room1_adults_layer-button
+
+$('room1_adults_layer-button').find('option').each( function() {
+      var $this = $(this);
+      if ($this.text() == '1') {
+         $this.attr('selected','selected');
+         return false;
+      }
+ });
+ </script>
