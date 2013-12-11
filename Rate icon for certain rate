@@ -1,0 +1,10 @@
+<script>
+
+$('.ratelistview_roomsontop .room .content .rates .rate .header h4:contains("Best Available Rate")').each(function(i, obj){
+
+
+$(this).next().append('<div title="Includes Halfboard" class="rateicon halfboard">&nbsp;</div>');
+
+});
+
+</script>
