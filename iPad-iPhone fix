@@ -1,0 +1,16 @@
+
+<script>
+
+if((navigator.userAgent.match(/iPhone/i))) {
+document.write("<meta name=\"viewport\" content=\"width=1580px\", minimum-scale=1.0, maximum-scale=2.0 \/>");
+document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"https://trace.trustinternational.com/davetest/iphone-HLLW0103.css\" charset=\"utf-8\" \/>");
+}
+
+
+if((navigator.userAgent.match(/iPad/i))) {
+document.write("<meta name=\"viewport\" content=\"width=1524px\",>");
+document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"https://trace.trustinternational.com/davetest/iphone-HLLW0103.css\" charset=\"utf-8\" \/>");
+
+}
+
+</script>
