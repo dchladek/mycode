@@ -1,0 +1,64 @@
+.packagebox .inner .package .bar .title
+{
+width: auto;
+}
+
+.packagebox .inner .package
+{
+margin: 10px 20px 20px 0;
+}
+
+
+.packagebox .inner .roomupgrade {
+     background-image: none ! important;
+     width: 722px ! important;
+}
+
+.packagebox .inner .roomupgrade {
+     box-shadow: 5px 5px 3px #CDCDCD;
+     margin: 10px 20px 20px 0px;
+}
+
+.packagebox .inner .roomupgrade .bar .title {
+     width: auto ! important;
+}
+
+
+
+.packagebox .inner .roomupgrade .bar, .packagebox .inner .roomupgrade .content, .packagebox .inner .package {
+    background-color: #EDEDED ;
+}
+
+.packagebox .inner .roomupgrade .content div.content-description
+{
+width: 517px !important;
+}
+
+/*  DP fixes */
+
+.packagebox .inner .package
+{
+margin: 10px 20px 20px 0;
+ box-shadow: 5px 5px 3px #CDCDCD;
+}
+.packagebox .inner .package
+{
+background-image: none !important;
+  width: 722px;
+}
+
+.packagebox .inner .package .bar {
+    background-color: #EDEDED;
+}
+
+.packagebox .inner .package .content div.content-description p
+{
+
+    width: 541px;
+
+}
+
+
+/* end of DP fixes */
+
+
