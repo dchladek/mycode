@@ -1,0 +1,33 @@
+
+$('#addition_membership_number').blur(function() {
+
+var checkTA = $('#addition_membership_number').val();
+var length = checkTA.length;
+
+if (checkTA.substr(0,2) == "TL") {
+
+} else if (checkTA.substr(0,2) == "tl") {
+
+} else {
+alert("Your membership number must start with TL!");
+}
+
+if (/^[0-9]+$/.test(checkTA.substr(2,8)))
+{
+} else {
+alert("Your membership number must only contain numbers.  Please check your number");
+}
+
+if(length > 8)
+{
+alert("Your membership number must be less than 8 characters");
+}
+
+});
+
+$(document).ready(function() {
+   $('#addition_membership_number').attr({ maxLength : 8 });
+   $('#addition_membership_number').val("TL");
+});
+
+$('textarea#roompreferences_comment').attr('placeholder', 'Maximum 80 Characters');
