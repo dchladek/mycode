@@ -1,0 +1,8 @@
+<script>
+if (t_roomRateCode[0].indexOf('DR') > -1)
+{
+
+$('#creditcardfields').after("<div class='rate_checkbox'><input type='checkbox' value='1' name='rate_accepted' checked><span>: Yes, I agree that my credit card will be charged at the time of booking according to the rate deposit or prepay policy</span></div>");
+
+}
+</script>
