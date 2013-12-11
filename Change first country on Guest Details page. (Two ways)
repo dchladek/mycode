@@ -1,0 +1,10 @@
+jQuery('select#guestdetails_country').each(function(){
+    var opts = $(this).children();
+    opts.filter('[value=SE]').insertAfter(opts.first())
+    
+}); 
+ 
+
+OR:
+
+$('select#guestdetails_country').prepend("<option value='US'>United States</option><option value='CA'>Canada</option><option value=''></option>");
