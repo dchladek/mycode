@@ -1,0 +1,1 @@
+jQuery('.packagebox .inner .bar .price').each(function(i){ jQuery(this).text(jQuery(this).text().replace('.00',' ')) })
