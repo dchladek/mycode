@@ -1,0 +1,66 @@
+<style>
+
+a.adjust{
+		padding:5px;
+		display:block;
+		font-weight:bold;
+		background:#eee;
+		color:#333;
+		border-radius:12px;
+		-webkit-border-radius:12px;
+		-moz-border-radius:12px;
+		width:80px;
+		text-align:center;
+		text-decoration:none;
+	}
+		a.adjust:hover{
+			background:#333;
+			color:#FFF;
+			-webkit-transition: all 400ms; /*safari and chrome */
+			-moz-transition: all 400ms ease; /* firefox */
+			-o-transition: all 400ms ease; /* opera */
+			transition: all 400ms ease;
+		}
+
+</style>
+
+<script>
+$('p.hoteldescription').wrap('<div class="more-less" />');
+$('p.hoteldescription').wrap('<div class="more-block" />');
+</script>
+
+<script type="text/javascript"> 
+ 
+$(function(){
+ 
+// The height of the content block when it's not expanded
+var adjustheight = 65;
+// The "more" link text
+var moreText = "+  More";
+// The "less" link text
+var lessText = "- Less";
+
+ 
+// Sets the .more-block div to the specified height and hides any content that overflows
+$(".more-less .more-block").css('height', adjustheight).css('overflow', 'hidden');
+ 
+// The section added to the bottom of the "more-less" div
+$(".more-less").append('<a href="#" class="adjust"></a>');
+ 
+$("a.adjust").text(moreText);
+ 
+$(".adjust").toggle(function() {
+		$(this).parents("div:first").find(".more-block").css('height', 'auto').css('overflow', 'visible');
+		// Hide the [...] when expanded
+		$(this).parents("div:first").find("td.continued").css('display', 'none');
+		$(this).text(lessText);
+	}, function() {
+		$(this).parents("div:first").find(".more-block").css('height', adjustheight).css('overflow', 'hidden');
+		$(this).parents("div:first").find("td.continued").css('display', 'block');
+		$(this).text(moreText);
+});
+});
+
+
+ 
+</script>
