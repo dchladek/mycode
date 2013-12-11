@@ -1,0 +1,12 @@
+// Line break on email address
+
+var html = $(".emailfont").html();
+html = html.substring(0, 13) + "<br>" + html.substring(13);
+$(".emailfont").html(html);
+
+
+This code assumes you have created the .emailfont class already with the code below.
+
+<script>
+$('.panel.grad1 .inner b').replaceWith('<b>Phone +49 (0)221 2701<br><a class="emailfont" href="mailto:info@domain.com">info@domain.com</a><br></b>');
+</script>
