@@ -1,0 +1,14 @@
+Remove .00 after Ajax Load from Price Breakdown Calendar
+
+$('.ratelistview_roomsontop .room .content .rates .rate .header .price .left').ajaxStop(function() {
+$('.pricebreakdown .calendar tbody.pbdcalendarDays td.pbdcalendarSelected span').each(function(i){ jQuery(this).text(jQuery(this).text().replace('.00',' ')) })
+});
+
+
+Replace decimal points from rooms and rates page (no matter what value, not just .00)
+
+$('.ratelistview_roomsontop .room .content .rates .rate .header .price .right span.pricevalue').each(function(i){ 
+var s = $(this).text();
+s = s.substring(0, s.lastIndexOf('.'));
+$(this).text(s);
+});
