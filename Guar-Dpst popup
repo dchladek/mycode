@@ -1,0 +1,21 @@
+<script type="text/javascript" src="URL HERE /js/jquery.cookie.js"></script>
+<script>
+if (currentStep == "4")
+{
+window.onbeforeunload = function()
+{
+var t_guarpolicy = $('html body.useWebFonts div#main div#pagecontent div#pagecontent-inner form div#content div#content-right div#content-inner div.formbox div.inner div.form div#creditcardfields p.header_subdescr strong').val();
+$.cookie('t_guarpolicy', t_guarpolicy , {expires : 7});
+}
+}
+
+if (currentStep == "5")
+{
+
+var depositpolicy = $.cookie('t_guarpolicy');
+alert(depositpolicy);
+
+}
+
+
+</script>
