@@ -1,0 +1,11 @@
+
+<script>
+
+if($("#guarantyselection_h").length != 0) {
+
+$('#guarantyselection_h').prop('checked',"checked");
+$('#creditcardfields').css("display", "none");
+
+}
+
+</script>
