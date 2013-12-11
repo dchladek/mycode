@@ -1,0 +1,11 @@
+$('#guestdetails_country').change(function()
+{
+
+$("#state-field")
+    .css('backgroundColor', '#ff0000') //set some color
+    .animate({
+        backgroundColor: "#ffffff" //now fade to white 
+    }, 5000);
+
+
+});
