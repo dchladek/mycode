@@ -1,0 +1,15 @@
+<script>
+
+$(".panel.grad1 .inner b").each(function() {
+    var text = $(this).text();
+    text = text.replace("(0)", "   ");
+    $(this).text(text);
+});
+</script>
+
+<style>
+
+html body.useWebFonts div#main div#pagecontent div#pagecontent-inner form div#content div#content-left div.panel div.inner p b:nth-child(1) {
+    padding-right: 5px;
+}
+</style>
