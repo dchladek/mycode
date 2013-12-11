@@ -1,0 +1,6 @@
+
+<script>
+
+jQuery('.ratelistview_roomsontop .room .content .rates .rate .header .price .right span.pricevalue').each(function(i){ jQuery(this).text(jQuery(this).text().replace('$','USD')) })
+
+</script>
