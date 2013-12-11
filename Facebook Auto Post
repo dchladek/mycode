@@ -1,0 +1,61 @@
+<div id="fb-root"></div>
+<script type="text/javascript">
+
+  var fbAppId = 'APP ID HERE';
+
+  // Additional JS functions here
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : fbAppId,        // App ID
+      status     : true,           // check login status
+      cookie     : true,           // enable cookies to allow the server to access the session
+      xfbml      : true            // parse page for xfbml or html5 social plugins like login button below
+    });
+
+};
+
+
+	function publishPost(session) {
+   var publish = {
+     method: 'stream.publish',
+     message: '',
+     picture : 'https://URLimages/RO-1025060386978896134y9498_G.jpg',
+     link : 'www.google.com/?bf=lizieperfectresort',
+     name: 'Staying at the Perfect Resort',
+     caption: 'I just made a reservation at the Perfect Resort',
+     description: 'I will be staying at the Perfect Resort',
+     actions : { name : 'Come Stay with us!', link : 'http://www.google.com'}
+	 
+};  
+
+  };
+
+  // Load the SDK Asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+$( document ).ready(function() {
+
+FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+
+setTimeout(publishPost, 1000);
+
+
+  } else if (response.status === 'not_authorized') {
+
+  } else {
+    // the user isn't logged in to Facebook.
+  }
+ }, true);
+
+
+ });
+</script>
+
+<div id="result"></div>
