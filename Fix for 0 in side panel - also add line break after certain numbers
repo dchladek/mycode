@@ -1,0 +1,13 @@
+<script>
+$(".panel.grad1 .inner p").each(function() {
+    var text = $(this).text();
+text = text.replace(new RegExp("\\(0\\)", "g"), '')
+    $(this).text(text);
+});
+var value = $(".panel.grad1 .inner p:nth-child(1)").html();
+value = value.replace(new RegExp("2888", "g"), '2888<br>')
+value = value.replace(new RegExp("3289", "g"), '3289<br>')
+$(".panel.grad1 .inner p:nth-child(1)").html(value);
+
+
+</script>
