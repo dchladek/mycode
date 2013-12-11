@@ -1,0 +1,49 @@
+<div id='fb-root'></div>
+    <script src='http://connect.facebook.net/en_US/all.js'></script>
+
+    <p id='msg'></p>
+
+    <script> 
+	
+	$(document).ready(function() {
+
+
+FB.login(function(response) {
+   if (response.authResponse) {
+     var access_token =   FB.getAuthResponse()['accessToken'];
+     console.log('Access Token = '+ access_token);
+     FB.api('/me', function(response) {
+     console.log('Good to see you, ' + response.name + '.');
+     });
+   } else {
+     console.log('User cancelled login or did not fully authorize.');
+   }
+ }, {scope: ''});
+
+	
+      FB.init({appId: "186730574816887", status: true, cookie: true});
+
+      function postToFeed() {
+
+        // calling the API ...
+        var obj = {
+          method: 'feed',
+          redirect_uri: 'www.yourreservation.net/tb3/?bf=lizieperfectresort',
+          link: 'https://developers.facebook.com/docs/reference/dialogs/',
+          picture: 'http://fbrell.com/f8.jpg',
+          name: 'Staying at Perfert Resort',
+          caption: 'I have just made a booking at the Perfect Resort',
+          description: 'Test description'
+        };
+
+        function callback(response) {
+          document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+        }
+
+        FB.ui(obj, callback);
+      }
+	  setTimeout(postToFeed, 1000)
+	  
+	  });
+
+    </script>
