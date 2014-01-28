@@ -1,3 +1,5 @@
+//Worldhotel and LHW have this code.   Not sure which IBE.
+
 <script>
 
 $('.ratelistview_roomsontop .room .content .rates .rate .header h4:contains("Best Available Rate")').each(function(i, obj){
