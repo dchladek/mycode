@@ -1,3 +1,5 @@
+//sino HOtels
+
 <script>
 $(".panel.grad1 .inner p").each(function() {
     var text = $(this).text();
