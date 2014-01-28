@@ -1,3 +1,5 @@
+//Hay Adams LHW hotel HLLW1741
+
 <script>
 $('.filterPanel').after('<div class="specialrctext" ><p>* Rates may change during stay, please click the red arrow for a daily price breakdown</p></div>');
 </script>
