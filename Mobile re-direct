@@ -1,3 +1,5 @@
+//Ascott, Americinn, Rocco Forte
+
 <script>
 	var isMobile = {
 		Android: function() {
