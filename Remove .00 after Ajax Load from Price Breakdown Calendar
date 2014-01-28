@@ -1,4 +1,6 @@
-Remove .00 after Ajax Load from Price Breakdown Calendar
+//Six Senses IBE
+
+//Remove .00 after Ajax Load from Price Breakdown Calendar
 
 $('.ratelistview_roomsontop .room .content .rates .rate .header .price .left').ajaxStop(function() {
 $('.pricebreakdown .calendar tbody.pbdcalendarDays td.pbdcalendarSelected span').each(function(i){ jQuery(this).text(jQuery(this).text().replace('.00',' ')) })
