@@ -1,3 +1,5 @@
+//Americinn, LHW (indiv), WW(indiv) IBEs.  Unknown about which individual IBEs at this time
+
 jQuery('select#guestdetails_country').each(function(){
     var opts = $(this).children();
     opts.filter('[value=SE]').insertAfter(opts.first())
