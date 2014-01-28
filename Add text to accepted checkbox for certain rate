@@ -1,4 +1,9 @@
+//For Starhotels IBE and only for DR rate.  Adds extra text to the guarantee checkbox for deposit
+
 <script>
+
+
+
 if (t_roomRateCode[0].indexOf('DR') > -1)
 {
 
