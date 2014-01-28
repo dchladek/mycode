@@ -1,3 +1,5 @@
+//Trident
+
 // get the select
 var $dd = $('#hotelselection_hotelCode optgroup[label=India]');
 if ($dd.length > 0) { // make sure we found the select we were looking for
