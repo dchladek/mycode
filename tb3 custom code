@@ -1,3 +1,5 @@
+//Various LHW properties for their leaders club side panel
+
 <script type="text/javascript">
 function customLayer() {
       var url = "path to html file here"; // put here the url to the page which simply returns the content for the layer
