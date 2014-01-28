@@ -1,3 +1,5 @@
+//For AmericInn IBE and some Worldhotels IBE (unknown at this time)
+
 $('#guestdetails_country').change(function()
 {
 
