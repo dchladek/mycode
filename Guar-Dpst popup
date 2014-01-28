@@ -1,3 +1,5 @@
+//SINO HOTELS single IBEs
+
 <script type="text/javascript" src="URL HERE /js/jquery.cookie.js"></script>
 <script>
 if (currentStep == "4")
