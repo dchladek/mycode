@@ -1,0 +1,39 @@
+//HLLW1626 all language CSS fixes and  Russian fixes
+
+All
+
+.panel.roomselection .subpanel.active h3 .title
+{
+color: #333333 !important;
+}
+
+.buttonbar.noborder
+{
+background: none !important;
+}
+
+#creditcard_expirymonth-button span
+{
+font-size: 0.75em
+}
+
+
+
+Russian Only
+
+.moreinfos
+{
+width: 147px !important;
+}
+
+Fix for detecting non-ascii characters
+
+var foreignCharacters = $("#guestdetails_firstName").val();
+var rforeign = /[^\u0000-\u007f]/;
+
+if (rforeign.test(foreignCharacters)) {
+  alert("This is non-Latin Characters");
+} else {
+  alert("This is Latin Characters");    
+}
+
