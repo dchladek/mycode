@@ -1,0 +1,21 @@
+//Falkenstiener IBE
+
+<script>
+$('#guestdetails_country option[value=AT]').insertAfter('#guestdetails_country option:first-child');
+
+$('#guestdetails_country option[value=DE]').insertAfter('#guestdetails_country option[value=AT]');
+
+$('#guestdetails_country option[value=CH]').insertAfter('#guestdetails_country option[value=DE]');
+
+$('#guestdetails_country option[value=IT]').insertAfter('#guestdetails_country option[value=CH]');
+
+$('#guestdetails_country option[value=HR]').insertAfter('#guestdetails_country option[value=IT]');
+
+$('#guestdetails_country option[value=RS]').insertAfter('#guestdetails_country option[value=HR]');
+
+$('#guestdetails_country option[value=CZ]').insertAfter('#guestdetails_country option[value=RS]');
+
+$('#guestdetails_country option[value=SK]').insertAfter('#guestdetails_country option[value=CZ]');
+
+$('#guestdetails_country option[value=]').insertAfter('#guestdetails_country option[value=SK]');
+</script>
