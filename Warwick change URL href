@@ -1,0 +1,25 @@
+//Warwick only
+
+<script>
+
+var obj = {
+  "HYWNYCWH": "http://warwick.mmgystage.com/new-york/",
+ "HYWDENWH": "http://warwick.mmgystage.com/denver/",
+  "HYWDFWWH": "http://warwick.mmgystage.com/dallas/",
+  "HYWSFOWH": "http://warwick.mmgystage.com/san-francisco/",
+  "HYWSEAWH": "http://warwick.mmgystage.com/seattle/"
+
+};
+
+for (var prop in obj) {
+    
+if (t_hotelCode[0] == prop)
+{
+    $('.header-elements .logo').attr("href", obj[prop]);
+ }   
+
+}
+
+
+
+</script>
