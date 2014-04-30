@@ -1,0 +1,5 @@
+$('.textinput.w79 input').click(function () {
+   
+   $('.panel.roomselection .inner .button.button1').trigger('click');
+   
+});
