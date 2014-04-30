@@ -1,0 +1,17 @@
+
+$( ".hoteldescription" ).each(function( index ) {
+var hoteldesc = $(this).text();
+var docDesc1 = hoteldesc.replace(/(<br ?\/?>)*/g,"");
+
+$(this).text(docDesc1);
+
+});
+
+$( ".tabbed-content" ).each(function( index ) {
+var hoteldesc = $(this).text();
+var docDesc1 = hoteldesc.replace(/(<br ?\/?>)*/g,"");
+
+$(this).text(docDesc1);
+
+});
+
