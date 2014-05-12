@@ -1,0 +1,7 @@
+
+$('.roomrate.room .withwarning').each(function(i, obj){
+
+$(this).parent().removeClass('closed');
+$(this).parent().addClass('opened');
+
+});
