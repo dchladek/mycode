@@ -1,0 +1,12 @@
+//Americinn, ACME Hotel, Empire NY WW
+
+<script>
+$( document ).ready(function() {
+$('#guestdetails_country').change(function()
+{
+
+$('select#guestdetails_state').css("display", "block");
+$('#guestdetails_state-button').remove();
+});
+});
+</script>
