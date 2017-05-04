@@ -1,0 +1,67 @@
+//jQuery inArray - Warwick doubleClick tags
+<script>
+for (x=0; x < t_confirmationNumber.length; x++)
+{
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+val arrhotel = ["HYWORDAL", "HYWBRUWH", "HYWBRURW", "HYWDENWH","HYWGVAWH", "HYWDFWWH", "HYWNYCWH", "HYWNASNA", "HYWPARWH", "HYWSFOWH", "HYWSEAWH", "HYWPARWT"];
+if(jQuery.inArray(arrhotel, t_hotelCode) !== -1)
+{
+
+} else {
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=wcorp123;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=wcorp123;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+
+}
+
+if(t_hotelCode =="HYWORDAL")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=aller585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=aller585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWBRUWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=barse585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=barse585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWBRURW")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=bruss585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=bruss585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+
+if(t_hotelCode =="HYWDENWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=denve585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=denve585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+
+if(t_hotelCode =="HYWGVAWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=genev585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=genev585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWDFWWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=merlo585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=merlo585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWNYCWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=newyo585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=newyo585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWNASNA")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=parad585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=parad585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWPARWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=paris585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=paris585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWSFOWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=sanfr585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=sanfr585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWSEAWH")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=seatt585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=seatt585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+if(t_hotelCode =="HYWPARWT")
+{
+document.write('<iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=westm585;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe><noscript><iframe src="https://6730906.fls.doubleclick.net/activityi;src=6730906;type=websi585;cat=westm585;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript>');
+}
+}
+</script>
