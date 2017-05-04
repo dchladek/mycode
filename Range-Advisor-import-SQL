@@ -1,0 +1,5 @@
+UPDATE wherets set rangeacc = TRIM(Replace(Replace(Replace(rangeacc,'\t',''),'\n',''),'\r',''));
+
+UPDATE wherets
+SET rangeadd = REPLACE(rangeadd, 'NSSF MEMBER', '')
+WHERE rangeadd LIKE '%NSSF MEMBER%';
