@@ -1,0 +1,9 @@
+var getallconf = t_confirmationNumber.join('-');
+sum = 0;
+for(var i=0; i < t_total.length; i++){
+
+    sum += parseInt(+t_total[i]);
+
+}
+
+var totalsum = (sum/100);
