@@ -1,0 +1,3 @@
+<script>
+document.write(unescape("%3Cscript src='https://secure-hotel-tracker.com/tics/log.php?act=conversion&amp;ref="+t_confirmationNumber[0]+"&amp;amount="+t_total[0]/100+"&amp;currency="+t_currencyCode[0]+"&amp;idbe=3&amp;idwihp=172593&amp;checkin="+t_arrivalDate[0]+"&amp;checkout="+t_departureDate[0]+"&amp;date_format=YYYY-MM-DD'%3E%3C/script%3E"));
+</script>
