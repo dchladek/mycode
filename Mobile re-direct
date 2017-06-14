@@ -1,4 +1,43 @@
 //Ascott, Americinn, Rocco Forte
+//New script created June 14th, 2017 that can handle 50/50 splits and when the "bf" parameter is sent in different cases (upper and lower)
+
+<script>
+var isMobile = {
+Android: function() {
+return navigator.userAgent.match(/Android/i) ? true : false;
+},
+BlackBerry: function() {
+return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+},
+iOS: function() {
+return navigator.userAgent.match(/iPhone|iPod/i) ? true : false;
+},
+Windows: function() {
+return navigator.userAgent.match(/IEMobile/i) ? true : false;
+},
+any: function() {
+return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+}
+};
+if( isMobile.any() )
+{
+
+function replaceQueryParam(param, newval, search) {
+    var regex = new RegExp("([?;&])" + param + "[^&;]*[;&]?");
+    var query = search.replace(regex, "$1").replace(/&$/, '');
+
+    return (query.length > 2 ? query + "&" : "?") + (newval ? param + "=" + newval : '');
+}
+
+ var split = window.location.search
+ split = replaceQueryParam('bf', "HLLW0556m", split)
+window.location ="https://www.yourreservation.net/tb3/mobile/?"+ split +"";
+
+}
+</script>
+
+
+// Old Code below.
 
 <script>
 	var isMobile = {
