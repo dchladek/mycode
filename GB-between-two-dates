@@ -1,0 +1,17 @@
+//Works for DD-MM-YYYY   On HLLW2177 GuestBooker
+
+var fdate = "2017-08-06";
+var edate = "2017-08-10";
+var adate = $('#room1_departureDay').val();
+
+var convertDate = function(usDate) {
+  var dateParts = usDate.split(/(\d{1,2})\-(\d{1,2})\-(\d{4})/);
+  //if(dateParts[2] < 10) { dateParts[2] = "0" + dateParts[1];};
+  return dateParts[3] + "-" + dateParts[2] + "-" + dateParts[1];
+}
+
+adate = convertDate(adate);
+if((adate <= edate && adate >= fdate))
+{
+$('.filterPanel').after('<p class="specialtext">The pool will be closed from 6 to 10 August 2017</p><br>');
+}
